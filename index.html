@@ -13,14 +13,14 @@
                 
             <form name="contact" method="POST" data-netlify="true">
            <h3>Message Me</h3>
-           <input type="text" name="" placeholder="Full Name">
-           <input type="email" name="" placeholder="Email">
+           <input type="text" name="name" placeholder="Full Name">
+           <input type="email" name="email" placeholder="Email">
            <textarea placeholder="Your Message"></textarea>
            <select  placeholder="CHOOSE">
-               <option value="IT">IT</option>
-               <option value="CSE">CSE</option>
+               <option value="IT" name="stream">IT</option>
+               <option value="CSE" name="stream">CSE</option>
            </select>
-           <input type="file" placeholder="attach files">
+           <input type="file" placeholder="attach files" name="file">
         
            <div data-netlify-recaptcha="true"></div>
            <input type="submit" value="Send">
